@@ -1,0 +1,20 @@
+$colour-green: #83c99d;
+$colour-text-primary: #000;
+$colour-text-secondary:#6F6F6F;
+$colour-text-white: white;
+
+$colour-background-pink: #f4989e;
+$colour-background-dark-blue:#605f7f;
+$colour-background-green: $colour-green;
+$colour-background-darken:#182431;
+
+$colour-button-violet:#c08ac2;
+$colour-button-green: $colour-green;
+$colour-button-grey:#e2E1E5;
+
+$breakpoints:(
+    tablet: 500px,
+    desktop: 900px
+);
+
+$font-family: 'Open Sans', sans-serif;

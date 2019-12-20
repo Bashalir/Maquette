@@ -1,0 +1,57 @@
+@mixin tablet-only{
+    @media screen and (min-width: map-get($breakpoints, tablet )){
+        @content;
+    }
+}
+
+@mixin desktop-only{
+    @media screen and (min-width: map-get($breakpoints, desktop )){
+        @content;
+    }
+}
+
+@mixin box-shadow{
+    transition: box-shadow .3s;
+        &:hover{
+            box-shadow: 0 0 11px rgba(33,33,33,.2);
+        }
+}
+
+
+@mixin bloc-style {
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+
+@mixin  arrow-link {
+    font-weight: bold;
+    color:$colour-text-white;
+    text-decoration: none;
+
+    .fas {
+        margin-left: 1rem;
+    vertical-align: middle;
+    }
+}
+
+@mixin text-article {
+
+    margin: 0 1rem 1rem 1rem;
+    padding: 1rem;
+}
+
+@mixin button-item($colour) {
+    margin: 1rem 0;
+    background-color: $colour;
+    border-radius:7px;
+    display:inline-block;
+    cursor:pointer;
+    color:$colour-text-white;
+    font-weight:bold;
+    padding:0.7rem 0.8rem;
+    text-decoration:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+}
