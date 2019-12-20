@@ -135,6 +135,8 @@ h3 {
         grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: min-max(100px, auto);
         grid-template-areas: "-pink -blue -sun" "-tree -tree -green";
+    background-size: cover;
+    background-position: center;
   }
 }
 
